@@ -1,0 +1,90 @@
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+
+#section1 {
+    width: 700px;
+    height: 120px;
+    background-image: url(../img/white.png);
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    color: brown;
+    padding: 30px;
+    margin: 70px 400px;
+    border: thick;
+    border: 2px solid grey;
+}
+
+#section2 {
+    width: 700px;
+    height: 130px;
+    background-image: url(../img/white.png);
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    padding: 30px;
+    margin: 250px 400px;
+    border: tan;
+    border: 2px solid grey;
+}
+
+#section3 {
+    width: 700px;
+    height: 180px;
+    background-image: url(../img/white.png);
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    padding: 30px;
+    margin: 450px 400px;
+}
+
+#bigger {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#smaller {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    text-align: center
+}
+
+input[type=button] {
+    background-color: blanchedalmond;
+    padding: 5px 15px;
+    width: 25%;
+    text-align: center
+}
+
+input[type=submit] {
+    background-color: blanchedalmond;
+    padding: 5px 15px;
+    width: 10%;
+}
